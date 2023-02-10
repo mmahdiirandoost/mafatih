@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE06C50E1B7A875800D3F5B4 /* an.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06C50D1B7A875800D3F5B4 /* an.swift */; };
+		CE2BCB711B778E6300F0E6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BCB701B778E6300F0E6A0 /* AppDelegate.swift */; };
+		CE2BCB731B778E6300F0E6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BCB721B778E6300F0E6A0 /* ViewController.swift */; };
+		CE2BCB761B778E6300F0E6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2BCB741B778E6300F0E6A0 /* Main.storyboard */; };
+		CE2BCB781B778E6300F0E6A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2BCB771B778E6300F0E6A0 /* Images.xcassets */; };
+		CE2BCB7B1B778E6300F0E6A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2BCB791B778E6300F0E6A0 /* LaunchScreen.xib */; };
+		CE2BCB871B778E6400F0E6A0 /* MafatihTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BCB861B778E6400F0E6A0 /* MafatihTests.swift */; };
+		CEC2C8AB1B7CC0B9005755FE /* adieh.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C8AA1B7CC0B9005755FE /* adieh.swift */; };
+		CEC2C8AD1B7CC0E2005755FE /* sooreh.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C8AC1B7CC0E2005755FE /* sooreh.swift */; };
+		CEC2C8AF1B7CC118005755FE /* amal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C8AE1B7CC118005755FE /* amal.swift */; };
+		CEC2C8B11B7CC149005755FE /* ziyarat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C8B01B7CC149005755FE /* ziyarat.swift */; };
+		CEC2C8B31B7CC17B005755FE /* molhaghat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C8B21B7CC17B005755FE /* molhaghat.swift */; };
+		CEC2C8B51B7CC192005755FE /* hashiyeh.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C8B41B7CC192005755FE /* hashiyeh.swift */; };
+		CEC2C8B71B7CEF89005755FE /* ziyarat2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C8B61B7CEF89005755FE /* ziyarat2.swift */; };
+		CED4D9231B7DDD190037E150 /* adieh2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4D9221B7DDD190037E150 /* adieh2.swift */; };
+		CED4D9251B7DDE380037E150 /* amal2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4D9241B7DDE380037E150 /* amal2.swift */; };
+		CED4D9271B7DDEA60037E150 /* sooreh2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4D9261B7DDEA60037E150 /* sooreh2.swift */; };
+		CED4D9291B7DDF040037E150 /* molhaghat2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4D9281B7DDF040037E150 /* molhaghat2.swift */; };
+		CED4D92B1B7DDFEA0037E150 /* hashiyeh2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4D92A1B7DDFEA0037E150 /* hashiyeh2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2BCB811B778E6400F0E6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2BCB631B778E6300F0E6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2BCB6A1B778E6300F0E6A0;
+			remoteInfo = Mafatih;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE06C50D1B7A875800D3F5B4 /* an.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = an.swift; sourceTree = "<group>"; };
+		CE2BCB6B1B778E6300F0E6A0 /* Mafatih.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mafatih.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2BCB6F1B778E6300F0E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2BCB701B778E6300F0E6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2BCB721B778E6300F0E6A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2BCB751B778E6300F0E6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2BCB771B778E6300F0E6A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE2BCB7A1B778E6300F0E6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE2BCB801B778E6400F0E6A0 /* MafatihTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafatihTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2BCB851B778E6400F0E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2BCB861B778E6400F0E6A0 /* MafatihTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MafatihTests.swift; sourceTree = "<group>"; };
+		CEC2C8AA1B7CC0B9005755FE /* adieh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adieh.swift; sourceTree = "<group>"; };
+		CEC2C8AC1B7CC0E2005755FE /* sooreh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sooreh.swift; sourceTree = "<group>"; };
+		CEC2C8AE1B7CC118005755FE /* amal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = amal.swift; sourceTree = "<group>"; };
+		CEC2C8B01B7CC149005755FE /* ziyarat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ziyarat.swift; sourceTree = "<group>"; };
+		CEC2C8B21B7CC17B005755FE /* molhaghat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = molhaghat.swift; sourceTree = "<group>"; };
+		CEC2C8B41B7CC192005755FE /* hashiyeh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hashiyeh.swift; sourceTree = "<group>"; };
+		CEC2C8B61B7CEF89005755FE /* ziyarat2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ziyarat2.swift; sourceTree = "<group>"; };
+		CED4D9221B7DDD190037E150 /* adieh2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = adieh2.swift; path = ../adieh2.swift; sourceTree = "<group>"; };
+		CED4D9241B7DDE380037E150 /* amal2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = amal2.swift; path = ../amal2.swift; sourceTree = "<group>"; };
+		CED4D9261B7DDEA60037E150 /* sooreh2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sooreh2.swift; path = ../sooreh2.swift; sourceTree = "<group>"; };
+		CED4D9281B7DDF040037E150 /* molhaghat2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = molhaghat2.swift; path = ../molhaghat2.swift; sourceTree = "<group>"; };
+		CED4D92A1B7DDFEA0037E150 /* hashiyeh2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = hashiyeh2.swift; path = ../hashiyeh2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2BCB681B778E6300F0E6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2BCB7D1B778E6400F0E6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2BCB621B778E6300F0E6A0 = {
+			isa = PBXGroup;
+			children = (
+				CE2BCB6D1B778E6300F0E6A0 /* Mafatih */,
+				CE2BCB831B778E6400F0E6A0 /* MafatihTests */,
+				CE2BCB6C1B778E6300F0E6A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2BCB6C1B778E6300F0E6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2BCB6B1B778E6300F0E6A0 /* Mafatih.app */,
+				CE2BCB801B778E6400F0E6A0 /* MafatihTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2BCB6D1B778E6300F0E6A0 /* Mafatih */ = {
+			isa = PBXGroup;
+			children = (
+				CED4D92A1B7DDFEA0037E150 /* hashiyeh2.swift */,
+				CED4D9281B7DDF040037E150 /* molhaghat2.swift */,
+				CED4D9221B7DDD190037E150 /* adieh2.swift */,
+				CED4D9241B7DDE380037E150 /* amal2.swift */,
+				CED4D9261B7DDEA60037E150 /* sooreh2.swift */,
+				CEC2C8AA1B7CC0B9005755FE /* adieh.swift */,
+				CEC2C8AC1B7CC0E2005755FE /* sooreh.swift */,
+				CEC2C8B61B7CEF89005755FE /* ziyarat2.swift */,
+				CEC2C8AE1B7CC118005755FE /* amal.swift */,
+				CEC2C8B01B7CC149005755FE /* ziyarat.swift */,
+				CEC2C8B21B7CC17B005755FE /* molhaghat.swift */,
+				CEC2C8B41B7CC192005755FE /* hashiyeh.swift */,
+				CE2BCB701B778E6300F0E6A0 /* AppDelegate.swift */,
+				CE2BCB721B778E6300F0E6A0 /* ViewController.swift */,
+				CE06C50D1B7A875800D3F5B4 /* an.swift */,
+				CE2BCB741B778E6300F0E6A0 /* Main.storyboard */,
+				CE2BCB771B778E6300F0E6A0 /* Images.xcassets */,
+				CE2BCB791B778E6300F0E6A0 /* LaunchScreen.xib */,
+				CE2BCB6E1B778E6300F0E6A0 /* Supporting Files */,
+			);
+			path = Mafatih;
+			sourceTree = "<group>";
+		};
+		CE2BCB6E1B778E6300F0E6A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2BCB6F1B778E6300F0E6A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE2BCB831B778E6400F0E6A0 /* MafatihTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2BCB861B778E6400F0E6A0 /* MafatihTests.swift */,
+				CE2BCB841B778E6400F0E6A0 /* Supporting Files */,
+			);
+			path = MafatihTests;
+			sourceTree = "<group>";
+		};
+		CE2BCB841B778E6400F0E6A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2BCB851B778E6400F0E6A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2BCB6A1B778E6300F0E6A0 /* Mafatih */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2BCB8A1B778E6400F0E6A0 /* Build configuration list for PBXNativeTarget "Mafatih" */;
+			buildPhases = (
+				CE2BCB671B778E6300F0E6A0 /* Sources */,
+				CE2BCB681B778E6300F0E6A0 /* Frameworks */,
+				CE2BCB691B778E6300F0E6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mafatih;
+			productName = Mafatih;
+			productReference = CE2BCB6B1B778E6300F0E6A0 /* Mafatih.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2BCB7F1B778E6400F0E6A0 /* MafatihTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2BCB8D1B778E6400F0E6A0 /* Build configuration list for PBXNativeTarget "MafatihTests" */;
+			buildPhases = (
+				CE2BCB7C1B778E6400F0E6A0 /* Sources */,
+				CE2BCB7D1B778E6400F0E6A0 /* Frameworks */,
+				CE2BCB7E1B778E6400F0E6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2BCB821B778E6400F0E6A0 /* PBXTargetDependency */,
+			);
+			name = MafatihTests;
+			productName = MafatihTests;
+			productReference = CE2BCB801B778E6400F0E6A0 /* MafatihTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2BCB631B778E6300F0E6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mahdi Irandoost";
+				TargetAttributes = {
+					CE2BCB6A1B778E6300F0E6A0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CE2BCB7F1B778E6400F0E6A0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CE2BCB6A1B778E6300F0E6A0;
+					};
+				};
+			};
+			buildConfigurationList = CE2BCB661B778E6300F0E6A0 /* Build configuration list for PBXProject "Mafatih" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2BCB621B778E6300F0E6A0;
+			productRefGroup = CE2BCB6C1B778E6300F0E6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2BCB6A1B778E6300F0E6A0 /* Mafatih */,
+				CE2BCB7F1B778E6400F0E6A0 /* MafatihTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2BCB691B778E6300F0E6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2BCB761B778E6300F0E6A0 /* Main.storyboard in Resources */,
+				CE2BCB7B1B778E6300F0E6A0 /* LaunchScreen.xib in Resources */,
+				CE2BCB781B778E6300F0E6A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2BCB7E1B778E6400F0E6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2BCB671B778E6300F0E6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4D9231B7DDD190037E150 /* adieh2.swift in Sources */,
+				CEC2C8B11B7CC149005755FE /* ziyarat.swift in Sources */,
+				CEC2C8B71B7CEF89005755FE /* ziyarat2.swift in Sources */,
+				CE2BCB731B778E6300F0E6A0 /* ViewController.swift in Sources */,
+				CEC2C8B51B7CC192005755FE /* hashiyeh.swift in Sources */,
+				CEC2C8AB1B7CC0B9005755FE /* adieh.swift in Sources */,
+				CE06C50E1B7A875800D3F5B4 /* an.swift in Sources */,
+				CE2BCB711B778E6300F0E6A0 /* AppDelegate.swift in Sources */,
+				CED4D9291B7DDF040037E150 /* molhaghat2.swift in Sources */,
+				CEC2C8AF1B7CC118005755FE /* amal.swift in Sources */,
+				CED4D92B1B7DDFEA0037E150 /* hashiyeh2.swift in Sources */,
+				CEC2C8AD1B7CC0E2005755FE /* sooreh.swift in Sources */,
+				CEC2C8B31B7CC17B005755FE /* molhaghat.swift in Sources */,
+				CED4D9251B7DDE380037E150 /* amal2.swift in Sources */,
+				CED4D9271B7DDEA60037E150 /* sooreh2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2BCB7C1B778E6400F0E6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2BCB871B778E6400F0E6A0 /* MafatihTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2BCB821B778E6400F0E6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2BCB6A1B778E6300F0E6A0 /* Mafatih */;
+			targetProxy = CE2BCB811B778E6400F0E6A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2BCB741B778E6300F0E6A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2BCB751B778E6300F0E6A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2BCB791B778E6300F0E6A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2BCB7A1B778E6300F0E6A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2BCB881B778E6400F0E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2BCB891B778E6400F0E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2BCB8B1B778E6400F0E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mafatih/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE2BCB8C1B778E6400F0E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mafatih/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE2BCB8E1B778E6400F0E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MafatihTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafatih.app/Mafatih";
+			};
+			name = Debug;
+		};
+		CE2BCB8F1B778E6400F0E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MafatihTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafatih.app/Mafatih";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2BCB661B778E6300F0E6A0 /* Build configuration list for PBXProject "Mafatih" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2BCB881B778E6400F0E6A0 /* Debug */,
+				CE2BCB891B778E6400F0E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2BCB8A1B778E6400F0E6A0 /* Build configuration list for PBXNativeTarget "Mafatih" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2BCB8B1B778E6400F0E6A0 /* Debug */,
+				CE2BCB8C1B778E6400F0E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2BCB8D1B778E6400F0E6A0 /* Build configuration list for PBXNativeTarget "MafatihTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2BCB8E1B778E6400F0E6A0 /* Debug */,
+				CE2BCB8F1B778E6400F0E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2BCB631B778E6300F0E6A0 /* Project object */;
+}
